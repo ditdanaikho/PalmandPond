@@ -6,13 +6,37 @@ body {
   color: #333;
 }
 
-header {
+/* Hero Section */
+.hero {
+  background-color: #A8E6CF; /* Soft green */
   text-align: center;
-  padding: 20px;
-  background-color: #A8E6CF;
-  color: #333;
+  padding: 50px 20px;
 }
 
+.hero-content h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #55AFC7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-button:hover {
+  background-color: #47a4b5;
+}
+
+/* Navigation */
 nav {
   background-color: #B8E6E4;
   padding: 10px;
@@ -39,18 +63,37 @@ nav a:hover {
   color: #55AFC7;
 }
 
-section {
+/* About Us */
+#about {
   padding: 20px;
+  background-color: #fff;
 }
 
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content img {
+  border-radius: 10px;
+}
+
+/* Facilities Section */
 #catalog {
+  padding: 20px;
+  background-color: #F9F9F9;
+}
+
+.facilities {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.product {
+.facility {
   text-align: center;
   background: white;
   border-radius: 8px;
@@ -59,11 +102,21 @@ section {
   width: 200px;
 }
 
-.product img {
-  width: 100px;
-  height: 100px;
+.facility img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
 }
 
+.facility h3 {
+  color: #333;
+}
+
+.facility p {
+  color: #666;
+}
+
+/* Footer */
 footer {
   text-align: center;
   background-color: #A8E6CF;
